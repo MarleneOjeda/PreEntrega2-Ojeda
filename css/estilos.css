@@ -1,0 +1,179 @@
+
+body{
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+    background-color:#f3c1be;
+    background-size:cover;
+}
+
+
+header{
+    color:red;
+    grid-area: header;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+ul{
+    list-style-type: georgian;
+}
+
+.menu li{
+    display: inline;
+    padding-left: 0px;
+    font-size: 2vw;
+
+}
+.menu{
+    display: inline;
+    padding-right: 20px;
+    
+} 
+nav{
+    text-align: right;
+
+}
+.encabezado{
+    display: inline;
+    text-align: right;
+}
+.encabezado img{
+    width: 100%;
+    float: left;
+}
+
+.primerparrafo{
+    color: rgb(175, 15, 68);
+    margin-top: 100px;
+    margin-bottom: 0;
+    border: solid  5px rgb(126, 19, 78);
+    text-align: left;
+  
+  
+}
+
+.image-container{
+    background-image: url("../multimedia/kero_mostrando.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+    min-height: 200px;
+}
+
+.image-container:hover{
+    background-image: url("../multimedia/Kero.png");
+}
+
+@media (max-width: 768px) {.image-container
+    {display: none;
+    }
+  }
+
+------------------------------------------------------------------------------------------
+.titulodenosotros{
+  
+    height: 0px;
+    margin-top: 100px;
+    margin-right: 250px;
+}
+.parrafodenosotros{
+    margin-top: 100px;
+    margin-right: 500px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    color: blue;
+    font-size: 2.5vw;
+
+}
+
+/* .collage {
+    display: inline-block;
+
+} */
+.titulodegaleria{
+    text-align: center;
+    margin-top: 0.1vw;
+
+}
+
+/* .imagenesdecollage{
+    display: inline-block;
+    width: 50%;
+   background-image: 50%;
+} */
+.titulodecontacto{
+    text-align: left;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.mensajedecontacto{
+   display: inline-block;
+   margin-left: 10px;
+  
+ 
+}
+
+.imagenesproductos{
+    display: inline-block;
+    background-position: center;
+     
+}
+
+
+.piedepagina{
+    display: flex;
+    text-align: right;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+.PieDePagina{
+    margin-right: 10px;
+    grid-area: footer;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 10%;
+    margin-bottom:10% ;
+  }
+
+  .contenedordereservas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "header  header"
+      "titulodegaleria titulodegaleria"
+      " imagenesproductos1 imagenesproductos2"
+      " imagenesproductos3 imagenesproductos4"
+      "footer footer";
+  }
+
+
+  .titulodegaleria{
+    grid-area: titulodegaleria;
+  }
+
+  .imagenesproductos1{
+    grid-area: imagenesproductos1;
+  }
+  .imagenesproductos2{
+    grid-area: imagenesproductos2;
+  }
+  .imagenesproductos3{
+    grid-area: imagenesproductos3;
+  }
+  .imagenesproductos4{
+    grid-area: imagenesproductos4;
+  }
+
+  
+
+
