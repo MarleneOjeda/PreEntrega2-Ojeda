@@ -26,19 +26,23 @@ ul{
     font-size: 2vw;
 
 }
+
 .menu{
     display: inline;
     padding-right: 20px;
     
 } 
+
 nav{
     text-align: right;
 
 }
+
 .encabezado{
     display: inline;
     text-align: right;
 }
+
 .encabezado img{
     width: 100%;
     float: left;
@@ -66,17 +70,18 @@ nav{
 }
 
 @media (max-width: 768px) {.image-container
-    {display: none;
+    {
+        display: none;
     }
-  }
+}
 
-------------------------------------------------------------------------------------------
 .titulodenosotros{
   
     height: 0px;
     margin-top: 100px;
     margin-right: 250px;
 }
+
 .parrafodenosotros{
     margin-top: 100px;
     margin-right: 500px;
@@ -87,21 +92,12 @@ nav{
 
 }
 
-/* .collage {
-    display: inline-block;
-
-} */
 .titulodegaleria{
     text-align: center;
     margin-top: 0.1vw;
 
 }
 
-/* .imagenesdecollage{
-    display: inline-block;
-    width: 50%;
-   background-image: 50%;
-} */
 .titulodecontacto{
     text-align: left;
     margin-top: 0%;
@@ -111,16 +107,12 @@ nav{
 .mensajedecontacto{
    display: inline-block;
    margin-left: 10px;
-  
- 
 }
 
 .imagenesproductos{
     display: inline-block;
     background-position: center;
-     
 }
-
 
 .piedepagina{
     display: flex;
@@ -142,36 +134,39 @@ nav{
     padding-right: 20%;
     margin-top: 10%;
     margin-bottom:10% ;
-  }
+}
 
-  .contenedordereservas{
+.contenedordereservas{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-      "header  header"
-      "titulodegaleria titulodegaleria"
-      " imagenesproductos1 imagenesproductos2"
-      " imagenesproductos3 imagenesproductos4"
-      "footer footer";
-  }
+        "header  header"
+        "titulodegaleria titulodegaleria"
+        " imagenesproductos1 imagenesproductos2"
+        " imagenesproductos3 imagenesproductos4"
+        "footer footer";
+}
 
 
-  .titulodegaleria{
+.titulodegaleria{
     grid-area: titulodegaleria;
-  }
+}
 
-  .imagenesproductos1{
+.imagenesproductos1{
     grid-area: imagenesproductos1;
-  }
-  .imagenesproductos2{
+}
+
+.imagenesproductos2{
     grid-area: imagenesproductos2;
-  }
-  .imagenesproductos3{
+}
+
+.imagenesproductos3{
     grid-area: imagenesproductos3;
-  }
-  .imagenesproductos4{
+}
+
+.imagenesproductos4{
     grid-area: imagenesproductos4;
-  }
+}
 
   
 
